@@ -51,6 +51,8 @@ To start the application using Docker, run the following command:
 docker-compose up --build
 This will set up both the frontend and backend in a Docker environment.
 
+![image](https://github.com/user-attachments/assets/199459c2-d28d-41ab-afb8-73e2b30902bf)
+
 ## 🚀 API Gateway
 The project uses an API Gateway to route all API requests and improve security.
 API Gateway URL:
