@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 
 // ✅ **Azure Queue Storage Bilgileri**
 const accountName = "se4458";
-const accountKey = "YNLiBBCu/qmNIzLbO5RxUNparKIpI7IjV7W4cWkIkEZzuFxkqOWrBPmkZsOaoOMi+PicWfNHjWrX+AStM0KhpQ==";
+const accountKey = "i7Jgs52eJqYZdQ6YVjS8xNeZsZ1yd8FMIBho24uHEZ4xH8nDPGf/qUNG/FI5IEMU90FBx4q+kK2r+AStB7txPg==";
 
 const queueServiceClient = QueueServiceClient.fromConnectionString(
   `DefaultEndpointsProtocol=https;AccountName=${accountName};AccountKey=${accountKey};EndpointSuffix=core.windows.net`
