@@ -1,0 +1,106 @@
+.doctor-search-result {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.doctor-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-name {
+  font-size: 22px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.star-rating {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  color: gray;
+  transition: color 0.2s;
+}
+
+.star.selected {
+  color: gold;
+}
+
+.availability {
+  margin-top: 15px;
+}
+
+.day-schedule {
+  margin-bottom: 15px;
+}
+
+.day-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 8px;
+  justify-content: center;
+}
+
+.time-button {
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+  max-width: 90px;
+}
+
+.time-button:hover {
+  background-color: darkgreen;
+}
+
+.time-button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.map-container {
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .time-buttons {
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+}

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.header .doctor-button {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #eef7ff;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.search-input,
+.city-select,
+.search-button {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.doctor-button {
+  background-color: #ffc107;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
